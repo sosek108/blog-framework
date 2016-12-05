@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Lato');
+
+body {
+    font-family: "Droid Serif", serif;
+    color: #444;
+}
+h1 {
+    font-family: "Lato", "Helvetica", sans-serif;
+}
+
+header {
+    margin-top: 10px;
+}
+header h1 {
+    font-size: 1.6em;
+    margin: 0;
+}
+header h2 {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+a h1, a h2 {
+    color: #444;
+}
+a:hover h1, a:hover h2 {
+    color: #717171;
+    transition: all ease 0.5s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.post {
+    margin-bottom: 25px;
+}
+.post .footer {
+    font-style: italic;
+    color: grey;
+    text-decoration: underline;
+    text-align: right;
+}
+.post .title {
+    font-size: 1.8em;
+}
+.post .text {
+    padding-left: 25px;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 4px 10px;
+}
+
+h1 a {
+    font-size: 0.5em;
+}
